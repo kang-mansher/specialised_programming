@@ -2,8 +2,16 @@ public class WordleColors {
 
     public static void main(String[] args) {
 
-        String[] list1 = {"BLOCK", "BLOCK", "BLURB", "ABBOT", "CANAL", "GREEN", "RATES"};
-        String[] list2 = {"BRICK", "BLOBS", "BOBBY", "BOBBY", "AAAAA", "BLACK", "STARE"};
+        String[] list1 = {"BLOCK", "BLOCK", "BLURB", "ABBOT", "CANAL",
+                "GREEN", "RATES","GMMPG", "OOIOI", "XXXRR",
+                "CCDCD", "OOOOG", "OOOQO", "NNHNN", "CCTTC",
+                "MRRRR", "RRNNN", "KKMMK", "TTTMM", "WWHWH"
+        };
+        String[] list2 = {"BRICK", "BLOBS", "BOBBY", "BOBBY", "AAAAA",
+                "BLACK", "STARE", "KHWHH", "IIOOI", "RXXXX",
+                "CCCDC", "GOGGO", "QQOOO", "HNHHH", "TCTTT",
+                "MRMMR", "RNNNR", "MMKMK", "TTMTM", "WHWHH"
+        };
 
         for (int i = 0; i < list1.length; i++) {
             System.out.println(color(list1[i], list2[i]));
